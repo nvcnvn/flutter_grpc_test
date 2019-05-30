@@ -22,8 +22,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  grpc: ^1.0.2
-  protobuf: ^0.13.11
+  bob_dart_client:
+    git: git@github.com:manabie-com/bob_dart_client.git
 
 dev_dependencies:
   flutter_test:

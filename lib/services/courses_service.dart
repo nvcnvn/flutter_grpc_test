@@ -1,6 +1,6 @@
 import 'package:flutter_grpc/common/grpc_commons.dart';
-import 'package:flutter_grpc/model/courses.pb.dart';
-import 'package:flutter_grpc/model/courses.pbgrpc.dart';
+import 'package:bob_dart_client/courses.pb.dart';
+import 'package:bob_dart_client/courses.pbgrpc.dart';
 
 class CoursesService {
   static Future<ListTopicResponse> getListTopic() {
